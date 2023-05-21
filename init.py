@@ -63,7 +63,8 @@ note_book = '''
 !aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/t2iadapter_depth_sd15v2.pth -d /content/stable-diffusion-webui/extensions/sd-webui-controlnet/models -o t2iadapter_depth_sd15v2.pth
 !aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/t2iadapter_sketch_sd15v2.pth -d /content/stable-diffusion-webui/extensions/sd-webui-controlnet/models -o t2iadapter_sketch_sd15v2.pth
 !aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/t2iadapter_zoedepth_sd15v1.pth -d /content/stable-diffusion-webui/extensions/sd-webui-controlnet/models -o t2iadapter_zoedepth_sd15v1.pth
-!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/neverending-dream-ned/resolve/main/neverendingDreamNED_bakedVae.safetensors -d /content/stable-diffusion-webui/models/Stable-diffusion -o neverendingDreamNED_bakedVae.safetensors
+!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/dark-sushi-25d/resolve/main/darkSushi25D25D_v20.safetensors -d /content/stable-diffusion-webui/models/Stable-diffusion -o darkSushi25D25D_v20.safetensors
+!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/majicmix-realistic/resolve/main/majicmixRealistic_v4.safetensors -d /content/stable-diffusion-webui/models/Stable-diffusion -o majicmixRealistic_v4.safetensors
 !aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt -d /content/stable-diffusion-webui/models/Stable-diffusion -o neverendingDreamNED_bakedVae.vae.pt
 '''
 
