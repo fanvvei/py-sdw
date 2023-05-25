@@ -67,9 +67,7 @@ note_book = '''
 !aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/majicmix-realistic/resolve/main/majicmixRealistic_v4.safetensors -d /content/stable-diffusion-webui/models/Stable-diffusion -o majicmixRealistic_v4.safetensors
 !aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt -d /content/stable-diffusion-webui/models/Stable-diffusion -o neverendingDreamNED_bakedVae.vae.pt
 !aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/anything-v5.0/resolve/main/AnythingV5V3_v5PrtRE.safetensors -d /content/stable-diffusion-webui/models/Stable-diffusion -o AnythingV5V3_v5PrtRE.safetensors
-!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/comicsblend/resolve/main/comicsblend_V1.ckpt -d /content/stable-diffusion-webui/models/Stable-diffusion -o comicsblend_V1.ckpt
 !aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/midjourney-v4-diffusion/resolve/main/mdjrny-v4.ckpt -d /content/stable-diffusion-webui/models/Stable-diffusion -o mdjrny-v4.ckpt
-!aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/drnighthan/GhostMix/blob/main/GhostMix-V2.0-fp16-BakedVAE.safetensors -d /content/stable-diffusion-webui/models/Stable-diffusion -o GhostMix-V2.0-fp16-BakedVAE.safetensors
 '''
 
 note_book = note_book.split("\n")
